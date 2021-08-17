@@ -11,13 +11,13 @@ import {
   GridItem,
   theme,
   Image,
-  Stack,
+  Button,
+  Link,
   Flex,
   Spacer,
-  Button
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import image from './images/zuri.jpeg';
 
 function App() {
   return (
@@ -26,11 +26,20 @@ function App() {
         <Box mb={20} bg='#718096'>
         <Flex>
   <Box p="2">
-    <Heading as="h2" size="lg">Zuri Intrernship Resume</Heading>
+  <Image
+  borderRadius="full"
+  boxSize="150px"
+  src={image}
+  alt="Zuri Internship"
+/>
   </Box>
   <Spacer />
-  <Box>
-    <Button colorScheme="teal">Visit Zuri Internsip</Button>
+  <Box mt={12} mr={6}>
+  <Button>
+  <Link href="https://internship.zuri.team/" isExternal>
+  Vist Zuri Internship <ExternalLinkIcon mx="2px" />
+</Link>
+  </Button>
   </Box>
 </Flex>
 </Box>
@@ -40,7 +49,7 @@ function App() {
   templateColumns="repeat(3, 1fr)"
   gap={4}
 >
-  <GridItem rowSpan={3} colSpan={1} bg="#38B2AC"><Heading as="h3" size="lg">PROFILE</Heading>
+  <GridItem rowSpan={3} colSpan={1} bg="#38B2AC"><Heading as="h3" size="lg" color='white'>PROFILE</Heading>
   <Divider />
   <Box alignItems="start">
   <Box
@@ -50,7 +59,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Name</Heading>
+      <Heading fontSize="xl" color='white'>Name</Heading>
       <Text mt={4}>Atwine Nickson</Text>
     </Box>
     <Box
@@ -60,7 +69,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Date of Birth</Heading>
+      <Heading fontSize="xl" color='white'>Date of Birth</Heading>
       <Text mt={4}>16-10-1980</Text>
     </Box>
     <Box
@@ -70,7 +79,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Address</Heading>
+      <Heading fontSize="xl" color='white'>Address</Heading>
       <Text mt={4}>Mengo Kampala</Text>
     </Box>
     <Box
@@ -80,7 +89,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Email</Heading>
+      <Heading fontSize="xl" color='white'>Email</Heading>
       <Text mt={4}>a@gmail.com</Text>
     </Box>
     <Box
@@ -90,7 +99,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Phone</Heading>
+      <Heading fontSize="xl" color='white'>Phone</Heading>
       <Text mt={4}>+256700988564</Text>
     </Box>
     <Box
@@ -100,7 +109,7 @@ function App() {
       flex="1"
       borderRadius="md"
     >
-      <Heading fontSize="xl">Website</Heading>
+      <Heading fontSize="xl" color='white'>Website</Heading>
       <Text mt={4}>www.zuri.com</Text>
     </Box>
   </Box>
