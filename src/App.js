@@ -10,6 +10,11 @@ import {
   Grid,
   GridItem,
   theme,
+  Image,
+  Stack,
+  Flex,
+  Spacer,
+  Button
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
@@ -18,7 +23,17 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Heading as="h2" size="2xl" >RESUME</Heading >
+        <Box mb={20} bg='#718096'>
+        <Flex>
+  <Box p="2">
+    <Heading as="h2" size="lg">Zuri Intrernship Resume</Heading>
+  </Box>
+  <Spacer />
+  <Box>
+    <Button colorScheme="teal">Visit Zuri Internsip</Button>
+  </Box>
+</Flex>
+</Box>
         <Grid
   h="200px"
   templateRows="repeat(3, 1fr)"
