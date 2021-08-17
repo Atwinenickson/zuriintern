@@ -70,7 +70,7 @@ function App() {
       borderRadius="md"
     >
       <Heading fontSize="xl" color='white'>Date of Birth</Heading>
-      <Text mt={4}>16-10-1980</Text>
+      <Text mt={4}>16-10-1996</Text>
     </Box>
     <Box
       p={5}
@@ -90,7 +90,7 @@ function App() {
       borderRadius="md"
     >
       <Heading fontSize="xl" color='white'>Email</Heading>
-      <Text mt={4}>a@gmail.com</Text>
+      <Text mt={4}>atwine@gmail.com</Text>
     </Box>
     <Box
       p={5}
@@ -100,7 +100,7 @@ function App() {
       borderRadius="md"
     >
       <Heading fontSize="xl" color='white'>Phone</Heading>
-      <Text mt={4}>+256700988564</Text>
+      <Text mt={4}>+25670098122</Text>
     </Box>
     <Box
       p={5}
@@ -110,7 +110,7 @@ function App() {
       borderRadius="md"
     >
       <Heading fontSize="xl" color='white'>Website</Heading>
-      <Text mt={4}>www.zuri.com</Text>
+      <Text mt={4}>www.atwinenickson.com</Text>
     </Box>
   </Box>
     </GridItem>
@@ -127,18 +127,18 @@ function App() {
     <GridItem  colSpan={2} bg="#E2E8F0">
       <Box>
         <Text fontSize="md">
-          Worked at Microsoft where i worked on solving bugs and making sure the platform
-          is working well
+          Worked at Flock of Birds where i worked on building widgets, 
+          solving bugs and making sure the Mendix platform
+          issues are fixed
         </Text>
       </Box>
     </GridItem>
-    <GridItem rowSpan={1} colSpan={1} bg="#E2E8F0">2015-2019
+    <GridItem rowSpan={1} colSpan={1} bg="#E2E8F0">2018-2019
     </GridItem>
     <GridItem  colSpan={2} bg="#E2E8F0">
     <Box>
         <Text fontSize="md">
-          Worked at Microsoft where i worked on solving bugs and making sure the platform
-          is working well
+          Worked at Vaduuz Limited as Internship
         </Text>
       </Box>
     </GridItem>
@@ -181,10 +181,12 @@ function App() {
 <Box alignItems="start">
 <Heading as="h3" size="md" >Software Development</Heading >
 <OrderedList>
-  <ListItem>Lorem ipsum dolor sit amet</ListItem>
-  <ListItem>Consectetur adipiscing elit</ListItem>
-  <ListItem>Integer molestie lorem at massa</ListItem>
-  <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+  <ListItem>Python</ListItem>
+  <ListItem>React</ListItem>
+  <ListItem>Django</ListItem>
+  <ListItem>Flask</ListItem>
+  <ListItem>Svelte</ListItem>
+  <ListItem>Next js</ListItem>
 </OrderedList>
   </Box>
     </GridItem>
@@ -192,10 +194,12 @@ function App() {
     <Box alignItems="start">
     <Heading as="h3" size="md" >System Administration</Heading >
     <OrderedList>
-  <ListItem>Lorem ipsum dolor sit amet</ListItem>
-  <ListItem>Consectetur adipiscing elit</ListItem>
-  <ListItem>Integer molestie lorem at massa</ListItem>
-  <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+  <ListItem>Ansible</ListItem>
+  <ListItem>Docker</ListItem>
+  <ListItem>Jenkins</ListItem>
+  <ListItem>Kibana</ListItem>
+  <ListItem>Nexus</ListItem>
+  <ListItem>Selenium</ListItem>
 </OrderedList>
   </Box>
     </GridItem>
