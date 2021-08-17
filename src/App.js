@@ -43,6 +43,10 @@ function App() {
   </Box>
 </Flex>
 </Box>
+<Box mb={16}>
+<Heading as="h1" fontSize="xl" color='black'>My Zuri Internship Resume</Heading>
+</Box>
+
         <Grid
   h="200px"
   templateRows="repeat(3, 1fr)"
