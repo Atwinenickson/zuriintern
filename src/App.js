@@ -44,7 +44,7 @@ function App() {
 </Flex>
 </Box>
 <Box mb={16}>
-<Heading as="h1" fontSize="xl" color='black'>My Zuri Internship Resume</Heading>
+<Heading as="h1" fontSize="xl" color='black'>My Zuri Internship Team Resume</Heading>
 </Box>
 
         <Grid
